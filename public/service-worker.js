@@ -1,8 +1,12 @@
+const APP_PREFIX = 'Pro-Budget-';
+const VERSION = 'version_01';
+const CACHE_NAME = APP_PREFIX + VERSION;
+
 const FILES_TO_CACHE = [
     "/index.html",
     "/css/styles.css",
     "/js/index.js",
-    "/js/idb.js",
+    "/js/db.js",
     "/icons/icon-72x72.png",
     "/icons/icon-96x96.png",
     "/icons/icon-128x128.png",
@@ -12,10 +16,7 @@ const FILES_TO_CACHE = [
     "/icons/icon-384x384.png",
     "/icons/icon-512x512.png"
   ];
-  
-  const APP_PREFIX = 'Pro-Budget-';
-  const VERSION = 'version_01';
-  const CACHE_NAME = APP_PREFIX + VERSION;
+
   
   self.addEventListener('install', function (e) {
     e.waitUntil(
