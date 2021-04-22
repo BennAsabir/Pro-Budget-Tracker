@@ -10,7 +10,9 @@ Updating an existing budget tracker application to allow for offline access and 
 * [Questions](#questions)
 
 ## General Info
-The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total will be updated when they're brought back online.
+The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total will be updated when they're brought back online. 
+<br>
+This application is installable as well! download by clicking on the download icon in the address bar
 <br>
 
 [Link to deployed application](https://sleepy-brook-70204.herokuapp.com/)
